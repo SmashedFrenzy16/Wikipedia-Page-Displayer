@@ -15,13 +15,17 @@ contents = wikipedia.page(page).content
 
 references = wikipedia.page(page).references
 
-label1 = Label(root, text="Contents: ").grid(row=1, column=0)
+label1 = Label(root, text="Contents: ")
+label1.grid(row=1, column=0)
 
-label2 = Label(root, text=contents).grid(row=2, column=0)
+label2 = Label(root, text=contents)
+label2.grid(row=1, column=0)
 
-label3 = Label(root, text="References: ").grid(row=3, column=0)
+label3 = Label(root, text="References: ")
+label3.grid(row=1, column=0)
 
-label4 = Label(root, text=references).grid(row=4, column=0)
+label4 = Label(root, text=references)
+label4.grid(row=1, column=0)
 
 
 
